@@ -1,0 +1,24 @@
+Hi!!
+
+This is a sample text file. Add something below and save it. Then do these steps to push the updated version to github:
+
+git commit -m "updating text file" practice.txt
+git pull 
+git push 
+
+Details: 
+the "-m" in git commit means add messsage, and then you add the message describing the update you did in the file, and then you add the file name
+git pull just checks if there is anything new on github that someone else pushed since you last pulled, so it would merge the files if i also updated the same file as you. 
+finally, git push pushes the (merged if needed) updated file back to github and you're done! 
+
+If you have more than one file to commit, and you want to commit all of them at the same time with the same message, you say "git commit -a -m "bla bla" ". 
+
+If you want to create a new file that was never in the repo before, you need to first add it and then do the same steps as before. 
+git add sample_new_file.txt
+
+git commit -m "scripts for something" sample_new_file.txt
+git pull 
+git push 
+
+Create a new file with your sample latex code in it an push it to this repo!
+
