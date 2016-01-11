@@ -1,0 +1,109 @@
+\documentclass{article}
+\title{The First Big Email}
+\date{January 8th 2016}
+\author{Kshitij Maheshwari}
+
+\usepackage{hyperref}
+\hypersetup
+{   colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\begin{document}
+
+\pagenumbering{roman}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\pagenumbering{roman}
+
+\newpage
+\pagenumbering{arabic}
+\section{Introduction}
+Happy New Year!! I wish you lots of health because it's the most important thing, but also lots of success and happiness :)
+
+Long email, but not a large amount of work! But it is very important that you do what I suggest below so we can have an easy start of the semester. It also won't take a long time!! Maybe email me back before the end of the week to let me know about your progress?
+
+We have a lot to do this semester! Jeff and I talked about the research project and we think you would be the perfect person to lead the study we are going to do. There is a lot to think about and figure out! 
+
+First of all, like we talked before break, we should make it last 6 weeks, and finish before March 19 because that's when midterm week is so sleep data will be all over the place. Therefore, preferably we should start as early as possible when classes start (so maybe around Jan 30?). 
+
+I know you won't be back until then, so I think it would be a good idea for you to do some stuff before you arrive to Providence because otherwise you won't have time to do everything when you come back. 
+
+Here are something things that I think are very useful for work in our lab. 
+\begin{itemize}
+    \item 
+    LAtex
+    \item 
+    GitHub
+    \item 
+    DataAnalysis
+    \item 
+    Research Papers
+    \end{itemize}
+    
+\newpage
+\section{LAtex}
+I didn't have any background working with it until we started writing papers last year! If you have never used it before, it's super easy to learn. Follow this simple tutorial and send me a simple file that you have written in Latex so you can get a quick hang of it:  
+\url{ http://www.latex-tutorial.com/tutorials/}
+
+\section{GitHub}
+This is crucial!! It's a really neat way for all of us to work on the same paper and have no issues with the text. There are lots of tutorials online. I think for the purposes of this project, you need to just create an account so I can add you to our project, which in github language is called a repository (a repo). Then, you can "pull" so download everything from our project folder on your laptop. Then, you can make changes like edit the paper we are writing, and "push" back the updates to github so I can "pull" them later.
+\begin{itemize}
+\item 
+Make a github account here: \url{github.com}
+
+\item 
+Follow the directions here to download git on your laptop:\url{ http://git-scm.com/downloads} 
+\item
+Go to the folder where you want your github repo's to be.\\
+Mine are in a folder called research, and every time you say\textit{ git clone some repo name},\\
+it makes a new folder in that research folder with the name of the repo and downloads all the files in that folder.
+
+\item 
+Type git clone \textbf{\textit{https://github.com/nediyana/practice.git}} in your terminal\\
+and it will make the new folder and download everything.\\
+There is a file called \textbf{practice} in it, open it and do what it says in there :) 
+\item 
+These are the most basic things about github, but you might need more as we work so you should start with a simple tutorial as well:\\
+this one has 2 parts, and at the end of there also lots of video tutorials on youtube if you like those better:
+\url{
+ http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1}
+ \end{itemize}
+ \newpage
+ 
+ 
+ \section{DataAnalysis}
+ We work mostly with Python for this! If you have never worked with Python, I would strongly recommend starting with going through the slides and assignments for the Intro to CS class for humanities and social sciences because it is a very basic explanation of everything: \url{http://cs.brown.edu/courses/csci0931/2015-fall/assignments.shtml}\\
+Ideally we should have an idea how to analyze the data before the study starts so that we can make sure we are collecting it the right way. We have some scripts from last year which I am attaching so you can look over them. If you have never worked with python before they will be confusing, but they will give you an idea of what we need to do.\\
+Basically we have a csv of data with timestamps and accelerometer and noise values for each timestamp. We need to analyze them and calculate all kinds of things like time to fall asleep, whether someone is awake or asleep at any given point throughout the night, and so on. 
+\textbf{We can go further into this section once you have thought more about the specifics of the study.} 
+\section{Background Papers}
+
+ You already read the reviews and the last paper we submitted. We basically need to make sure that the study we do now addresses the main issues from the reviews! However, we need to go over some of the papers we have cited before and make sure our studies are better than theirs and that we have background support for every decision we make. For example, if we say 6 weeks is enough, we should make sure all the other studies are about the same length, or even shorter. Also, one of the biggest questions is whether 1 week is enough to show a change in our sleep if we follow one recommendation diligently throughout the week. See papers below, skim them asap so you can make better decisions for the study procedure :) \\
+if you are logged in on canvas, the download pdf's are free \\
+Shuteye - \url{http://dl.acm.org/citation.cfm?id=2208600}\\
+Lullaby - \url{http://dl.acm.org/citation.cfm?id=2370253}\\
+Toss 'n' turn - \url{http://dl.acm.org/citation.cfm?id=2557220}
+iSleep - url\{http://keshi.ubiwna.org/2014IoTComm/readinglist/iSleep%20Unobtrusive%20Sleep%20Quality%20Monitoring%20using%20Smartphones.pdf}\\
+
+
+Anyway, that's all for now. Email me asap your initial thoughts on the sleep study so we can brainstorm and figure them out! Your are the lead on this so it can be a big part of your project :) 
+By the end of the week, do the quick Latex and Github tasks just to get started! And make sure you at least skim the papers first, but then read them more carefully. And start with the data analysis thing with Python, it's easy once you get a hang of it! 
+
+Let me know if you have any questions, concerns, anything at all!! I have tons more tutorials in mind and also tons of data we can work with to make it easy for you to learn python quickly. 
+
+
+ 
+
+
+
+
+
+\end{document}
